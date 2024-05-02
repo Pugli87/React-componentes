@@ -14,4 +14,4 @@ Currently, two official plugins are available:
 3. En los scripts colocar el scripts **"deploy": "npm run build && gh-pages -d dist"** _ó_ **"deploy: "gh-pages -d dist"**
 4. ejecutar los comandos **npm run build** _y_ **npm run dploy**
 5. Esperar que gitHub se actualice hasta que aparezca el github-pages en activo
-6. cuando se actualiza algo en el proyecto se repite el paso 4
+6. cuando se actualiza algo en el proyecto se repite el paso 4 para que se guarden los cambios en el pages
