@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 1. instalar ph-pages como dependencia **npm install --save-dev gh-pages** _ó_ **npm i gh-pages -D**
 2. Copiar nombre de repositorio en el archivo vite.config y en defineConfig colocamos **base: "/nombre repo/"** normalmente queda en la linea 7 debajo de plugins
-3. En los scripts colocar el scripts **"deploy": "npm run build && gh-pages -d dist"** _ó_ **"deploy: "gh-pages -d dist"**
-4. ejecutar los comandos **npm run build** _y_ **npm run dploy**
+3. En los scripts colocar el scripts **"deploy": "npm run build && gh-pages -d dist"** _ó_ **"deploy": "gh-pages -d dist"**
+4. ejecutar los comandos **npm run build** _y_ **npm run deploy**
 5. Esperar que gitHub se actualice hasta que aparezca el github-pages en activo
 6. cuando se actualiza algo en el proyecto se repite el paso 4 para que se guarden los cambios en el pages
